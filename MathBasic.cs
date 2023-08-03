@@ -19,7 +19,7 @@ namespace test_sofinans_calc
 
             res = (grantAmount + teamHelp) * 30 / 100;
 
-            string value = $"Объём софинансирования не более {res} рубля(ей )";
+            string value = $"Объём софинансирования не более {res} рубля(ей)";
             return value;
         }
     }
